@@ -1,0 +1,104 @@
+#inicio {
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    color: var(--cor1);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(337px, 1fr));
+    margin-bottom: 89px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(337px, 1fr));
+}
+
+/* Primeiros 3 elementos (cards) vão ocupar a primeira linha */
+.card {
+    background-image: 
+          url('../IMG/Rectangle\ 15.png'),
+          url('../IMG/3974104\ 1.png');
+    border-radius: 12px;
+    width: 337px;
+    height: 338px;
+    padding: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 1.89rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.30s ease-in-out;
+    color: var(--cor1);
+    text-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+.card:hover {
+    background-image: url('../IMG/Rectangle\ 15\ \(1\).png'),
+    url('../IMG/3974104\ 1.png');
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Últimos 2 blocos em linha abaixo */
+.info-box {
+    height: 264px;
+    width: 580px;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.81rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+
+}
+
+.box-1 {
+    background-image: url('../IMG/Group\ 22.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 1.89rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.30s ease-in-out;
+    color: var(--cor1);
+    text-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+.box-1:hover {
+    background-image: url('../IMG/Group\ 22-1.png');
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.box-2 {
+    background-image: url('../IMG/Group\ 23.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 1.89rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.30s ease-in-out;
+    color: var(--cor1);
+    text-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+.box-2:hover {
+    background-image: url('../IMG/Group\ 23-1.png');
+    transform: scale(1.05);
+    cursor: pointer;
+}
