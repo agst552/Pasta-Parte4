@@ -10,6 +10,10 @@
 
 body {
     background-image: url('../IMG/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .container {
